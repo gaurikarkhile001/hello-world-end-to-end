@@ -49,6 +49,9 @@ After verifying that the Docker container was working correctly, the next step w
 - Docker
 - Nginx (for serving the static website)
 
+  ![Screenshot (265)](https://github.com/user-attachments/assets/e675bd61-b164-46c0-b959-51ccb49aa144)
+
+
 ### Phase 4: CI/CD Pipeline Setup
 To automate the entire process, I set up a Continuous Integration and Continuous Deployment (CI/CD) pipeline. This pipeline automatically builds, tests, and deploys the application whenever new changes are made to the repository.
 
@@ -68,6 +71,9 @@ To automate the entire process, I set up a Continuous Integration and Continuous
 - GitHub
 - Docker
 - AWS EC2
+
+  ![Screenshot 2024-10-02 174651](https://github.com/user-attachments/assets/e272c883-e3a1-4f38-80f8-7e0ebd1a4df0)
+
 
 ## Conclusion
 This project was a great learning experience, allowing me to work with various technologies and understand the entire lifecycle of an application from development to deployment. By using Docker, I was able to ensure the application would run consistently across different environments. Deploying to AWS EC2 allowed me to experience real-world cloud deployment. Finally, the CI/CD pipeline setup with Jenkins automated the entire process, ensuring that future updates could be deployed seamlessly.
